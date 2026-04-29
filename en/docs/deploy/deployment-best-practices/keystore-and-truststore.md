@@ -297,13 +297,6 @@ truststorePath = "/opt/myservice/security/truststore.p12"
 truststorePassword = "<truststore-password>"
 ```
 
-**Environment variables** (take precedence over `Config.toml`):
-
-```bash
-export BAL_CONFIG_VAR_keystorePassword="<keystore-password>"
-export BAL_CONFIG_VAR_truststorePassword="<truststore-password>"
-```
-
 ## References
 
 - [Ballerina HTTP Module — SSL/TLS](https://lib.ballerina.io/ballerina/http/latest)
