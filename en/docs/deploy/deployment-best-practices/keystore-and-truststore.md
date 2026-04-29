@@ -54,7 +54,7 @@ keytool -genkeypair \
 | `-keyalg RSA -keysize 2048` | RSA 2048-bit key (use 4096 for higher security requirements) |
 | `-sigalg SHA256withRSA` | Signature algorithm; SHA256withRSA is the minimum recommended |
 | `-validity 365` | Certificate validity in days |
-| `-storetype PKCS12` | Use PKCS12; the older JKS format is deprecated |
+| `-storetype PKCS12` | The keystore type |
 | `-storepass` | Password to protect the keystore file |
 | `-dname` | Distinguished name embedded in the certificate |
 
@@ -257,7 +257,7 @@ http:Client mtlsClient = check new ("https://api.example.com", {
 
 #### gRPC with mutual TLS 
 
-gRPC uses the same `secureSocket` structure. The example below shows a secured gRPC listener and its corresponding client.
+gRPC uses the same `secureSocket` structure. The example below shows a secured gRPC listener with mutual TLS enabled.
 
 ```ballerina
 import ballerina/grpc;
