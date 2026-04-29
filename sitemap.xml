@@ -61,6 +61,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://bi.docs.wso2.com/deploy/deployment-best-practices/keystore-and-truststore/</loc>
+         <lastmod>2026-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://bi.docs.wso2.com/deploy/deployment-best-practices/network-level-security/</loc>
          <lastmod>2026-04-29</lastmod>
          <changefreq>daily</changefreq>
