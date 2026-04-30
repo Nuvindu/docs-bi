@@ -31,6 +31,12 @@ Adhering to secure configuration practices is essential for minimizing vulnerabi
 
 [Learn more about configuration best practices →](/deploy/deployment-best-practices/configuration-best-practices)
 
+## Keystore and truststore configuration
+
+Keystores and truststores are essential for securing TLS/SSL communication in production. This guide covers how to create and manage keystores and truststores, and how to configure them in BI for HTTPS listeners, mutual TLS, and outbound client connections.
+
+[Learn more about keystore and truststore configuration](/deploy/deployment-best-practices/keystore-and-truststore)
+
 ## Getting started
 
 Review each category above to understand the security considerations for your deployment. Implement these practices based on your specific environment, compliance requirements, and security policies. These guidelines are applicable to both cloud-native (containerized) and traditional VM-based deployments.
